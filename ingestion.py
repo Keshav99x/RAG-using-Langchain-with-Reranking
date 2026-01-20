@@ -3,9 +3,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 import config
 
 def load_and_chunk_pdf(pdf_path: str):
-    """
-    Loads the PDF and splits it into overlapping text chunks.
-    """
+
     print(f"Loading PDF: {pdf_path}...")
     loader = PyPDFLoader(pdf_path)
     docs = loader.load()
