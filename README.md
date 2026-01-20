@@ -34,3 +34,19 @@ Unlike standard RAG implementations that rely solely on vector similarity, this 
 ```bash
 git clone [https://github.com/Keshav99x/RAG-using-Langchain-with-Reranking.git](https://github.com/Keshav99x/RAG-using-Langchain-with-Reranking.git)
 cd RAG-using-Langchain-with-Reranking
+
+pip install -r requirements.txt
+
+#Setup Ollama Models
+
+ollama pull llama3.1
+ollama pull nomic-embed-text
+
+```
+
+Usage-
+python main.py "path/to/your/document.pdf"
+
+Type exit to quit
+
+
