@@ -1,0 +1,19 @@
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Database
+chroma_db/
+
+# Local Reranker Models
+flashrank-cache/
+model_dump/
+
+# User files
+*.pdf
