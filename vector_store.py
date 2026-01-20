@@ -3,9 +3,7 @@ from langchain_chroma import Chroma
 import config
 
 def build_or_load_vectorstore(chunks):
-    """
-    Creates (or loads) a Chroma vector database.
-    """
+    
     embedding = OllamaEmbeddings(model=config.EMBED_MODEL)
 
     vectordb = Chroma(
